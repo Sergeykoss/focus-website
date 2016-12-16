@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@face-font {
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/HelveticaNeue.woff) format('woff');       
+}
+body, h1, h2, h3, p, ul, li, iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body { 
+    background: #f4f4f4 url('images/background_image.jpg') no-repeat top center;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #222;
+   }
+.background {
+    width: 100%;
+    background-color: #e3e3e3;
+}
+h1 {
+    font-weight: 200;
+    font-size: 2.25em;
+    margin-top: 3rem;
+}
+h2 {
+    margin-bottom: 1.125rem;
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+h4 {
+    font-size: 1.5em;
+    font-weight:600;
+}
+p, li {
+    font-family: HelveticaNeue;
+    font-weight: normal;
+    color: #848484;
+    margin-bottom: 1.625rem;
+    line-height: 1.625;
+    font-size: 1em;
+}
+span {
+    font-weight: bold;
+}
+/* div, nav, footer {
+    border: 1px dashed red;
+} */
+header {
+    max-width: 100%;
+    margin: 7.125rem auto 0;
+    text-align: center;
+}
+li, a, ul {
+    display: inline-block;
+    overflow: hidden;
+}
+.get-app-left a {
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    margin-right: 1.25em;
+    width: 4.25em;
+    height: 4.25em;
+}
+.get-app-left li {
+    margin-bottom: 0.5em;
+}
+.get-app-left a:hover {
+    background-color: #222222;
+}
+.central-container {
+    display: table;
+    margin: 7.875rem auto 0;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+.content {
+    display: inline-block;
+    min-width: 10rem;
+    max-width: 20rem;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 22rem;
+    background-color: #f4f4f4;
+}
+.central-iphone {
+    display: table-cell;
+    min-width: 13rem;
+    vertical-align: top;
+}
+.central-container img {
+    max-width: 100%;
+    height: auto;
+}
+.get-the-app{
+    display: table;
+    text-align: justify;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+    padding: 0 0.5rem;
+}
+.get-app-left {
+    display: inline-block;
+/*    padding-right: 4.3rem;*/
+/*    padding-top: 3.75rem;*/
+    text-align: left;
+    max-width: 31.35rem;
+    min-width: 17.5rem;
+    margin: 3.75rem 4rem 0 0;
+}
+.wrap {
+    display: table-cell;
+    width: 31.25rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    padding-left: 4rem;
+    overflow: hidden;
+    vertical-align: top;
+}
+.get-app-right {
+    display: block;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    height: 0;
+    border-radius: 0.5em;
+    max-width: 100%;
+}
+iframe {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #e3e3e3;
+}
+.connecting-people {
+    text-align: center;
+}
+#blogger {
+    font-size: 0.875em;
+}
+#social-picture {
+    background-image: url("images/people.png");
+    background-position: center;
+    width: 1600px;
+    height: 318px;
+    position: relative;
+    margin: 3.75em auto 3.75em;
+    overflow: hidden;
+}
+#social-picture a{
+    display: block;
+    position: absolute;
+}
+a#person_con {
+    width: 78px;
+    height: 78px;
+    top: 81px;
+    left: 915px;
+}
+a#person_con:hover {
+    background-image: url("images/active_person.png")
+}
+a#person_con_1 {
+    width: 34px;
+    height: 78px;
+    top: 81px;
+    left: 0px;
+}
+a#person_con_1:hover {
+    background-image: url("images/person_trim.png")
+}
+a#person_con_2 {
+    width: 78px;
+    height: 78px;
+    top: 81px;
+    left: 196px;
+}
+a#person_con_2:hover {
+    background-image: url("images/active_person.png")
+}
+svg {
+    width: 4em;
+    height: 4em;
+    fill: #f4f4f4;
+}
+nav a {
+    text-decoration: none;
+    color: #848484;
+    text-align: center;
+    vertical-align: middle;
+}
+nav a:hover {
+    color: #222222;
+}
+.social-link-button a {
+    background-color: #d1d1d1;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    overflow: hidden;
+}
+.social-link-button a:hover {
+    background-color: #fcfcfc;
+}
+.social-link-button svg {
+    width: 2em;
+    height: 2em;
+}
+a[href*="twitter"] svg {
+    width: 1.5em;
+    height: 2em;
+}
+a[href*="linkedin"] svg {
+    width: 1.7em;
+    height: 2em;
+}
+.social-link-button svg {
+    fill: #fcfcfc;
+}
+.social-link-button a:hover {
+    background-color: #575757;
+}
+.connecting-people h3 {
+    margin-top: 3.75em;
+}
+.social-link-button li {
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+}
+nav ul {
+    padding: 3.75em 0;
+    text-align: center;
+    margin: 0;
+}
+nav li {
+    margin: 0 1em;
+    line-height: 1em;
+    line-height: 1em;
+}
+@media (max-width:650px){
+h1 {
+    margin-top: 1rem;
+}
+
+header {
+    margin: 2rem auto 0;
+    }
+
+.central-container {
+    display: block;
+    margin: 1rem auto 0;
+    text-align: center;
+    padding: 0 0.5rem;
+    background-color: #f4f4f4;
+}
+.content {
+    display: inline-block;
+    min-width: 10rem;
+    max-width: 24rem;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 1rem;
+    background: none;
+}
+.central-iphone {
+    display: none;
+}
+.get-the-app{
+    display: block;
+    text-align: center;
+    max-width: 98%;
+    margin: 0 auto;
+    background-color: #e3e3e3;
+    padding: 0 0.5rem; 
+}
+.get-app-left {
+    display: inline-block;
+    text-align: left;
+    max-width: 31.35rem;
+    min-width: 17rem;
+    margin: 1.75rem 0 0 0;
+}
+.wrap {
+    display: inline-block;
+    width: 100%;
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: top;
+}
+.connecting-people h3 {
+    margin-top: 3.75em;
+}
+nav ul {
+    padding: 1em 0;
+    text-align: center;
+    margin: 0;
+}
+nav li {
+    display: block;
+    padding: 0.3em;
+    margin: 0 1em;
+    line-height: 1em;
+    line-height: 1em;
+}
+}
